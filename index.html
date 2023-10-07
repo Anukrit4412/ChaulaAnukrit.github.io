@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<htmnml lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Anukrit - Developer portfolio</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+      <style>
+         * {
+            margin: 0;
+            padding: 0;
+         }
+
+         body {
+            background-color: rgba(0, 0, 0, 0.886);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+         }
+
+         nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80%;
+            background-color: rgba(31, 4, 75, 0.886);
+         }
+
+         nav ul {
+            display: flex;
+            justify-content: center;
+         }
+
+         nav ul li {
+            list-style: none;
+            color: whitesmoke;
+            margin: 0 24px;
+         }
+
+         nav ul li a {
+            text-decoration: none;
+            color: rgb(99, 158, 239);
+         }
+
+         nav ul li a:hover {
+            color: rgb(136, 136, 239);
+            font-size: 1.2rem;
+         }
+
+         main hr {
+            border: 0;
+            background: blueviolet;
+            height: 1.2px;
+            margin: 60px 84px;
+
+         }
+
+         .left {
+            font-size: 2.3rem;
+         }
+
+         .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+         }
+
+         .firstSection>div {
+            width: 30%;
+         }
+
+         .leftSection {
+            font-size: 2rem;
+         }
+
+         .leftSection .buttons{
+            padding: 43px 0;
+         }
+
+         .leftSection .btn{
+            background: purple;
+            padding: 12px;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            
+         }
+         .rightSection {
+            width: 80px;
+         }
+
+         .purple {
+            color: rgb(158, 90, 222);
+         }
+
+         .text-grey {
+            color: grey;
+         }
+
+         #element {
+            color: rgb(158, 90, 222);
+         }
+
+         .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+         }
+
+         .secondSection h1 {
+            font-size: 1.9rem;
+         }
+
+         .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+         }
+
+         .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+         }
+
+         .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 155px;
+         }
+
+         .vertical-text {
+            position: relative;
+            top: 75px;
+            width: 150px;
+         }
+
+         .vertical-desc {
+            position: relative;
+            top: 50px;
+            color: grey;
+            width: 15px;
+            font-size: 9px;
+         }
+
+         footer {
+            background-color: rgba(10, 10, 34, 0.412);
+            height: 150px;
+         }
+
+         .footer {
+            display: flex;
+            padding: 35px 130px;
+            justify-content: space-evenly;
+         }
+
+         .footer>div {
+            width: 223px;
+         }
+
+         footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+         }
+      </style>
+
+   </head>
+
+   <body>
+      <header>
+         <nav>
+            <div class="left">Anukrit's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+               <li><a href="/">Home</a></li>
+               <li><a href="/">About</a></li>
+               <li><a href="/">Services</a></li>
+               <li><a href="/">Projects</a></li>
+               <li><a href="/">Contact Me</a></li>
+            </ul>
+         </nav>
+      </header>
+
+      <main>
+         <section class="firstSection">
+            <div class="leftSection">
+
+               Hi,My name is <span class="purple">Anukrit</span>
+               <div>and I am a passionate</div>
+               <span id="element"></span>
+               <div class="buttons">
+                  <button class="btn">Download Resume</button>
+                  <button class="btn">Visit Github</button>
+               </div>
+            </div>
+            <div class="rightSection">
+               <img src="anu22.png.jpeg" alt="" </div>
+
+         </section>
+         <hr>
+         <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1> Work Experience </h1>
+            <div class="box">
+               <div class="vertical">
+                  <img class="image-top" src="cam1.png" alt="">
+                  <div class="vertical-text">
+                     Photographer (2018-2022)
+                  </div>
+                  <div class="vertical-desc">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illum maiores iure. Nobis omnis
+                     laudantium facere iusto maiores, sint quod labore facilis non!
+                  </div>
+               </div>
+               <div class="vertical">
+                  <img class="image-top" src="dev.png" alt="">
+                  <div class="vertical-text">
+                     Graphic Designer (2018-2022)
+                  </div>
+                  <div class="vertical-desc">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illum maiores iure. Nobis omnis
+                     laudantium facere iusto maiores, sint quod labore facilis non!
+                  </div>
+               </div>
+               <div class="vertical">
+                  <img class="image-top" src="htm.png" alt="">
+                  <div class="vertical-text">
+                     HTML Developer and Learner (2018-2022)
+                  </div>
+                  <div class="vertical-desc">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illum maiores iure. Nobis omnis
+                     laudantium facere iusto maiores, sint quod labore facilis non!
+                  </div>
+               </div>
+               <div class="vertical">
+                  <img class="image-top" src="dev.png" alt="">
+                  <div class="vertical-text">
+                     Node.JS Developer (2018-2022)
+                  </div>
+                  <div class="vertical-desc">
+                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illum maiores iure. Nobis omnis
+                     laudantium facere iusto maiores, sint quod labore facilis non!
+                  </div>
+               </div>
+
+         </section>
+      </main>
+      <footer>
+         <div class="footer">
+            <div class="footer-first">
+               <h3>Anukrit's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <ul>
+               <li>Home</li>
+               <li>About</li>
+               <li>Contact</li>
+               <li>Services</li>
+            </ul>
+         </div>
+         <div class="footer-third"></div>
+         </div>
+         <div class="footer-fourth"></div>
+         </div>
+         </div>
+         <div class="footer-rights">
+            Copyright &#169;Anukritsportfolio.Com | All rights reserved
+         </div>
+      </footer>
+      <script src=" https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>"
+      <script>
+         var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Photographer', 'Graphic Designer...'],
+            typeSpeed: 50,
+         });
+      </script>
+   </body>
+</htmnml>
